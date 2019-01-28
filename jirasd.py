@@ -62,7 +62,7 @@ class JiraSD(object):
 
         #jac = JIRA('https://jira.atlassian.com')
         #authed_jira = JIRA(basic_auth=('username', 'password'))
-        #jira = JIRA('https://slackdev.atlassian.net', basic_auth=("csanghvi@slack-corp.com","CBSind55"))
+        #jira = JIRA('https://slackdev.atlassian.net', basic_auth=("usename","pwd"))
 
         issue = self.jira.issue('ISD-3')
         print (issue.fields.project.key)             # 'JRA'
