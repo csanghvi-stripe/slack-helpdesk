@@ -16,4 +16,4 @@ PyYAML==3.11
 requests-oauthlib==0.8.0
 urllib3==1.22
 requests-toolbelt==0.8.0
-cryptography==1.2.3
+cryptography==3.2
